@@ -1,0 +1,51 @@
+/* ErrorModal.module.css */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal__content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.modal__content h2 {
+  margin-bottom: 15px;
+}
+
+.modal__content p {
+  margin-bottom: 20px;
+}
+
+.modal__content button {
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+}
+
+.modal__content button:hover {
+  background-color: #cc0000;
+}
+
+.modal__content button:focus {
+  outline: none;
+}

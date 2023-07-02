@@ -1,0 +1,50 @@
+.list{
+  display: flex;
+  width: 100%;
+}
+
+.list_container{
+  flex: 6;
+  padding: 1rem;
+}
+
+.invoice_list {
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 50rem;
+  background-color: rgba(236, 229, 221, 0.783);
+}
+
+.invoice_list__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.date_picker {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.date_picker label,
+.date_picker input {
+  margin: 0 0.5rem;
+}
+
+.date_picker input {
+  padding: 0.3rem;
+}
+
+.search_button {
+  margin-top: 1rem;
+  font: inherit;
+  cursor: pointer;
+  background-color: #77002e;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #77002e;
+  border-radius: 4px;
+  font-weight: bold;
+}

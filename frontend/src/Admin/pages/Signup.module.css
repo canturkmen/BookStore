@@ -1,0 +1,35 @@
+.configure {
+  max-width: 50rem;
+  width: 80%;
+  margin: 3rem auto;
+  background-color: rgba(1, 1, 1, 0.3);
+  border: 0.2px solid rgba(0, 0, 0, 0.4);
+}
+
+.form {
+  display: flex;
+  height: 100%;
+}
+
+.info {
+  color: rgba(255, 255, 255, 0.9);
+  mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8));
+  margin: 0.2rem;
+}
+
+.info h1 {
+  font: inherit;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.info p {
+  margin-top: 0.7rem;
+  font: inherit;
+  font-size: 1rem;
+}
+
+.signupform {
+  margin: 1rem;
+  width: 50%;
+}

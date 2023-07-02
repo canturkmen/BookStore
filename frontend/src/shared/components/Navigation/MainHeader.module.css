@@ -1,0 +1,127 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgba(243, 238, 238, 0.703);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.header a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2rem;
+  color: rgba(9, 9, 20, 0.596);
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.header__logo {
+  object-fit: contain;
+  width: 100px;
+  margin-top: 18px;
+  background-color: black;
+}
+
+.header__option_buttons {
+  margin: 0;
+  border: 0;
+  height: 39.2px;
+  line-height: 39.2px; /* Add this line */
+  display: inline-flex; /* Add this line */
+  justify-content: center; /* Add this line */
+  outline: none;
+}
+
+.header__options_select {
+  background-color: #3f51b5;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  font-size: 1rem;
+  border: 2px solid white;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  color: black;
+  overflow: hidden;
+  width: 33%;
+  height: 39.2px; /* Add this line */
+}
+
+.header__searchInput {
+  flex: 1;
+  border: black;
+  outline: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.header__searchIcon {
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__optionfirst {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.header__optionLineOneFirst {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.749);
+}
+
+.header__optionLineOne {
+  font-size: 13px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.749);
+}
+
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.749);
+}
+
+.header__optionCart {
+  padding: 1.5rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.header__cartItemCount {
+  margin: 0 10px;
+  font-size: 15px;
+}

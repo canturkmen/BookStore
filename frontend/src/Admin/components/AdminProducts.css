@@ -1,0 +1,58 @@
+.formBookInfo {
+   padding: 25px;
+   display: flex;
+   flex-direction: column;
+}
+
+.list{
+   display: flex;
+   width: 100%;
+}
+
+.list-container{
+   flex: 6;
+   padding: 2rem;
+}
+
+.oneLine{
+   display: flex;
+   margin-top: 50px;
+}
+
+.labelInputPair{
+   display: flex;
+   flex-direction: column;
+   margin-left: 200px;
+}
+
+.formLabels{
+   text-align: center;
+}
+
+.formInputs{
+   width: 300px;
+   height: 50px;
+}
+
+.formBookDescription{
+   margin: 50px auto auto 200px;
+}
+
+.addButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  width: 20%;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.addButton:hover {
+  background-color: #45a049;
+}
+
+
+

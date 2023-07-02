@@ -1,0 +1,91 @@
+.checkout__card {
+  margin-bottom: 1.5rem;
+  padding: 0 1rem 0 1rem;
+}
+
+.checkout__item {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 0;
+}
+
+.checkout__imageBox {
+  width: 110px;
+  height: 110px;
+}
+
+.checkout__image {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.checkout__product_info {
+  margin-right: 3rem;
+}
+
+.checkout__product_price {
+  display: flex;
+  margin-left: 1rem;
+  flex-direction: column;   
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.checkout__product_title {
+  margin-bottom: 0.5rem;
+  font-size: 17px;
+  font-weight: 600;
+  color: rgba(9, 9, 20, 0.596);
+}
+
+.checkout__product_author {
+  margin-bottom: 0.2rem;
+  font-size: 14.5px;
+  font-weight: 430;
+  color: rgba(9, 9, 20, 0.596);
+}
+
+.checkout__product_distributor {
+  margin-bottom: 1rem;
+  font-size: 14.5px;
+  font-weight: 430;
+  color: rgba(9, 9, 20, 0.596);
+}
+
+.checkout__product_actions {
+  display: flex;
+  align-items: flex-end;
+  height: 5.2rem;
+  align-items: center;
+}
+
+.checkout__product_price button {
+  background-color: orange;
+  text-align: left; 
+  border: transparent;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.checkout__product_actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  padding: 0.2rem 1.2rem;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.checkout__product_actions button:hover,
+.checkout__product_actions button:active {
+  background-color: #a50e48;
+  border-color: #a50e48;
+}
+
+.checkout__par_between_buttons {
+  margin: 0 1rem;
+}

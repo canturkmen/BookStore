@@ -1,0 +1,67 @@
+.comment-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.comment-table thead th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.comment-table tbody tr {
+  transition: background-color 0.2s ease-in-out;
+}
+
+.comment-table tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+.comment-table tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accept-comment-btn {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-right: 1rem;
+}
+
+.accept-comment-btn:hover {
+  background-color: #45a049;
+}
+
+.select {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* AdminRevenues.module.css */
+.chart {
+  margin: 1rem auto;
+  padding: 1.5rem;
+  width: 65%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 10px;
+}

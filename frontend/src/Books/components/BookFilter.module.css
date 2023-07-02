@@ -1,0 +1,65 @@
+.book__filter {
+  width: 15.5rem;
+  height: 100%;
+  background-color: white;
+  margin-right: 4rem;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.book__filter_option {
+  padding: 1rem;
+}
+
+.book__filter_option label {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: rgba(9, 9, 20, 0.596);
+}
+
+.book__filter_option ul {
+  list-style: none;
+  margin-top: 0.8rem;
+  padding: 0;
+}
+
+.book__filter_option li {
+  font-size: 0.91rem;
+  margin-bottom: 0.3rem;
+  font-weight:bold;
+  color: rgba(9, 9, 20, 0.596);
+}
+
+.book__filter_option input {
+  margin-right: 1rem;
+} 
+
+.book__filter_option_min {
+  margin-top: 1rem;
+}
+
+.book__filter_option_max {
+  margin-top: 1rem;
+}
+
+.book__filter_actions {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.book__filter_actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: rgba(189, 137, 41, 0.874);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #77002e;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.book__filter_actions button:hover,
+.book__filter_actions button:active {
+  background-color: #a50e48;
+  border-color: #a50e48;
+}

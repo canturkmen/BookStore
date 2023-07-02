@@ -1,0 +1,78 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.invoice {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  position: relative;
+  background-color: #fff;
+  animation: fadeIn 0.5s ease;
+}
+
+.invoice__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.invoice__title {
+  margin: 0;
+}
+
+.invoice__date {
+  font-size: 0.8rem;
+}
+
+.invoice__user {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.user__title {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.invoice__items {
+  margin-top: 1rem;
+}
+
+.invoice__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.invoice__total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.download_button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.download_button:hover {
+  background-color: #0069d9;
+}

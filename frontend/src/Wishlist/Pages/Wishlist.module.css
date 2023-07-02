@@ -1,0 +1,51 @@
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.checkout__checkout_product {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.checkout__info {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.checkout__product_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.checkout__subtotal {
+  flex-basis: 300px;
+}
+
+.checkout__p2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.checkout__p {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: 0.8rem;
+}
+
+.checkout__empty_wishlist {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  font-size: 1.5rem;
+  text-align: center;
+}

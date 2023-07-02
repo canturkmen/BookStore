@@ -1,0 +1,14 @@
+.error_text {
+  margin-top: 1rem;
+}
+
+.error_text p {
+  font: inherit;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 0.4fr);
+}

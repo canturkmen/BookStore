@@ -1,0 +1,174 @@
+.product {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2rem 1.2rem 0px 0px;
+  padding: 10px;
+  width: 11.5rem;
+  height: 450px;
+  min-width: 100px;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product__info {
+  height: max-content;
+  font-weight: bold;
+  text-align: center;
+  color: rgba(9, 9, 20, 0.596);
+  transition: all 0.3s ease;
+}
+
+.product__info_title {
+  height: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.product__info_author {
+  height: 2rem;
+  font-weight: 450;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.product__info_price {
+  height: max-content;
+  font-weight: 450;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.product__info_stock {
+  margin-top: 0.2rem;
+  height: max-content;
+  margin-bottom: 0.2rem;
+  font-weight: 450;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.product__rating {
+  display: flex;
+  margin-bottom: 0.3rem;
+  transition: all 0.3s ease;
+}
+
+.product__image {
+  width: 100%;
+  object-fit: contain;
+  max-height: 200px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.product:hover .product__image {
+  transform: translateY(-5px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book_action__btn {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background-color: orange;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.product:hover .book_action__btn {
+  bottom: 0;
+}
+
+.book_action__btn:disabled {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 140, 0, 0.5);
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+  cursor: not-allowed;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.product:hover .book_action__btn:disabled {
+  bottom: 0;
+}
+
+/* Add some spacing between the rating and the image */
+.product__rating {
+  margin-bottom: 0.5rem;
+}
+
+/* Customize the StarIcon color and size */
+.product__rating svg {
+  fill: gold;
+  width: 20px;
+  height: 20px;
+}
+
+/* Add hover effect to product__info */
+.product:hover .product__info {
+  transform: translateY(-5px);
+}
+
+/* Add hover effect to product__rating */
+.product:hover .product__rating {
+  transform: translateY(-5px);
+}
+
+/* Add a subtle border to the product image */
+.product__image {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+}
+
+.product__info_discount {
+  color: #ff4d4f;
+}
+
+.product__info_discount svg {
+  font-size: 18px;
+  margin-right: 4px;
+}
+
+.original_price {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 8px;
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.cancel_icon {
+  margin-left: 2px;
+  font-size: 18px;
+  color: #ff4d4f;
+}
+
+.discounted_price {
+  color: #ff4d4f;
+}

@@ -1,0 +1,105 @@
+.home {
+  display: flex;
+  justify-content: center;
+  margin: 7rem auto;
+  max-width: 1500px;
+  width: 1225px;
+}
+
+.home__row {
+  display: flex;
+  z-index: 1;
+  margin: 0 5px;
+}
+
+.home__container {
+  width: 100%;
+  position: relative;
+}
+
+.home__first_section {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+.home__categories {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  height: 410px;
+}
+
+.home__commercials {
+  margin-left: 3.5rem;
+  background-color: transparent;
+  height: 100%;
+  width: 50rem;
+  border-radius: 1rem;
+}
+
+.home__categories div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__categories h1 {
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.home__categories a {
+  color: rgb(80, 63, 31);
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.home__second_section {
+  margin-left: 18rem;
+  margin-top: 2rem;
+}
+
+/* Add your other styles here */
+
+.home__commercials {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.home__commercials img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  object-fit: cover;
+}
+
+.home__newly_added_books {
+  margin-top: 2rem;
+}
+
+.home__newly_added_books_information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__newly_added_books_information a{
+  color: rgb(80, 63, 31);
+  text-decoration: none;
+}
+
+.carousel_slide {
+  display: flex;
+  justify-content: space-around;
+}
+
+.carousel_item {
+  flex: 1 0 30%; /* This would make the item take up approximately a third of the space */
+}
+
+

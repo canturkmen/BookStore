@@ -1,0 +1,75 @@
+/* BookList.module.css */
+.bookList {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.listHeader {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.bookItem {
+  background-color: #e3e8ebeb;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.infos {
+  margin-left: 7.5rem;
+}
+
+.bookDetails {
+  margin-bottom: 1rem;
+}
+
+.actions {
+  margin-left: 8.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions input {
+  background-color: white;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  text-align: center;
+  cursor:auto;
+  outline: none;
+}
+
+.actions button {
+  margin-top: 1rem;
+  font: inherit;
+  cursor: pointer;
+  background-color: #77002e;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #77002e;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.discountInput {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-left: 10rem;
+  text-align: center;
+}
+
+.bookImage {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.discountButton:hover {
+  background-color: #0056b3;
+}

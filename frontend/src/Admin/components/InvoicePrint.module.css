@@ -1,0 +1,38 @@
+.invoice_print {
+  font-family: Arial, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.invoice_print__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.invoice_print__title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.invoice_print__date {
+  font-size: 14px;
+}
+
+.invoice_print__items {
+  margin-bottom: 20px;
+}
+
+.invoice_print__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.invoice_print__total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 18px;
+}
